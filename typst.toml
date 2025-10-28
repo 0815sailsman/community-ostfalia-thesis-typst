@@ -7,7 +7,7 @@ authors = [
   "Rémi Heredero <https://github.com/Klagarge>",
   "HEI-Vs <https://synd.hevs.io>",
 ]
-repository = "https://github.com/0815sailsman/ostfalia-typst-template"
+repository = "https://github.com/0815sailsman/community-ostfalia-thesis-typst"
 license = "MIT"
 description = "A thesis template for a bachelors thesis at the Ostfalia University of Applied Sciences, faculty informatics."
 entrypoint = "lib/template-thesis.typ"
