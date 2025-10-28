@@ -47,7 +47,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        lang: ['en', 'fr', 'de']
+        lang: ['en', 'de']
         type: ['draft', 'final']
     steps:
       - name: Checkout
@@ -60,8 +60,8 @@ jobs:
         env:
           RELEASE_VERSION: ${{ needs.prepare.outputs.release_version }}
         run: | 
-          mkdir -p ~/.cache/typst/packages/preview/hei-synd-thesis/${{ env.RELEASE_VERSION }}
-          cp -r ./ ~/.cache/typst/packages/preview/hei-synd-thesis/${{ env.RELEASE_VERSION }}
+          mkdir -p ~/.cache/typst/packages/preview/community-ostfalia-thesis/${{ env.RELEASE_VERSION }}
+          cp -r ./ ~/.cache/typst/packages/preview/community-ostfalia-thesis/${{ env.RELEASE_VERSION }}
 
       - name: Build Thesis - ${{ matrix.lang }}/${{ matrix.type }}
         run: typst compile template/thesis.typ template/thesis-${{ needs.prepare.outputs.release_version }}-${{ matrix.lang }}_${{ matrix.type }}.pdf --input lang=${{ matrix.lang }} --input type=${{ matrix.type }}
