@@ -1,4 +1,4 @@
-#import "@preview/ostfalia-thesis:0.2.3": *
+#import "@preview/ostfalia-thesis:0.1.0": *
 
 //-------------------------------------
 // Document options
