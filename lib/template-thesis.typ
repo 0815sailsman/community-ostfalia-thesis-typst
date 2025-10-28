@@ -9,7 +9,7 @@
   option: (
     type        : "final",  // "draft"
     lang        : "en",     // "de", "en"
-    template    : "thesis", // "midterm"
+    template    : "thesis", // "practical-project"
   ),
   doc: (
     title    : "Thesis Template",
