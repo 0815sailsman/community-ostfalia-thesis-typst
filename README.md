@@ -3,11 +3,11 @@ It's a modified version of the [HEI-Vs Engineering School template](https://gith
 
 ## Using the template
 
-1. In the `Typst` Univers select the `ostfalia-thesis` template. Locally you can use the Typst CLI to initialise the project:
+1. In the `Typst` Univers select the `community-ostfalia-thesis` template. Locally you can use the Typst CLI to initialise the project:
 
    ```bash
    # from the typst universe
-   typst init @preview/ostfalia-thesis:0.2.3
+   typst init @preview/community-ostfalia-thesis:0.1.0
    ```
 
 2. Fill in the metadata in the `metadata.typ` file.
@@ -131,8 +131,8 @@ typst compile thesis.typ --input type="draft" --input lang="de"
 
 ## Help
 
-If you need help writting your document look at the [Typst documentation](https://typst.app/docs/) or if ou need more help with the template specifics look at the document [Guide-to-Typst](https://github.com/hei-templates/hei-synd-thesis/blob/main/guide-to-typst.pdf).
-IF you need help writing your thesis look at the document [Guide-to-Thesis](https://github.com/hei-templates/hei-synd-thesis/blob/main/guide-to-thesis.pdf)
+If you need help writting your document look at the [Typst documentation](https://typst.app/docs/) or if ou need more help with the template specifics look at the document [Guide-to-Typst](https://github.com/0815sailsman/ostfalia-typst-template/guide-to-typst.pdf).
+IF you need help writing your thesis look at the document [Guide-to-Thesis](https://github.com/0815sailsman/ostfalia-typst-template/blob/main/guide-to-thesis.pdf)
 
 ## Contributing
 
